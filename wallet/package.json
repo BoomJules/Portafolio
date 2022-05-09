@@ -1,0 +1,27 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "core-js": "^3.22.0",
+    "stream-browserify": "^3.0.0",
+    "wallet": "^0.1.220007",
+    "web3-eth-accounts": "^1.7.3"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7"
+  }
+}
