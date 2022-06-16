@@ -26,10 +26,7 @@ function Header({
           <h1 className="header-title"> 
             Dex - <span className="contract-address">Contract address: <span className="address">{contracts.dex.options.address}</span></span>
           </h1>
-        </div>
-        <div className="col-sm-3 flex">
-          <button type="submit" className="btn btn-primary">connect wallet</button>
-        </div>        
+        </div>       
       </div>
     </header>
   );

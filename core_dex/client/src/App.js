@@ -6,13 +6,14 @@ import NewOrder from './NewOrder.js';
 import AllOrders from './AllOrders.js';
 import MyOrders from './MyOrders.js';
 import AllTrades from './AllTrades.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SIDE = {
   BUY: 0,
   SELL: 1
 };
 
-function App({web3, accounts, contracts}) {
+function App({web3, accounts, contracts, setAccounts}) {
   const [tokens, setTokens] = useState([]);
   const [user, setUser] = useState({
     accounts: [],

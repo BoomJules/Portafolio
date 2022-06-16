@@ -45,12 +45,16 @@ module.exports = {
       provider: () =>
         new provider(
           secrets.privateKeys,
-          secrets.INFURA_URL_KOVAN,
-          0,
-          5
+          
+          "https://kovan.infura.io/v3/a06f7c8323534f81857abb825e5bc839",
+         // secrets.INFURA_URL_KOVAN,
+         0,
+         5
         ),
-      network_id: 42
+      network_id: 42,
+      skipDryRun: true,
     }
+
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache-cli, geth or parity) in a separate terminal
